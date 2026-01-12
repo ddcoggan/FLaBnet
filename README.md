@@ -30,4 +30,7 @@ Below is a figure illustrating the FLaBnet architecture:
 the decoder and the connections between them. (B) Illustration of the open-
 ended recurrence and information flow across processing cycles / time steps. 
 (C) Detailed break down of the architecture for each block type, 
-annotated with the PyTorch modules used and their parameters.
+annotated with the PyTorch modules used. Default parameters for each module 
+are shown on the right, with non-default parameters shown in the 
+computational graphs. Block-specific parameters cited in the main graph are 
+shown on the left.
